@@ -6,7 +6,7 @@ test("Exercise 7", () => {
   expect(repeat(["foo", 3])).toBe("foofoofoo");
   expect(repeat(["hey", 4])).toBe("heyheyheyhey");
   expect(repeat(["lol", 2])).toBe("lollol");
-  expect(repeat(["dev", 3])).toBe("devdev");
+  expect(repeat(["dev", 3])).toBe("devdevdev");
   // add more tests here...
 });
 
