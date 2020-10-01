@@ -13,6 +13,13 @@
 
 function repeat(arr) {
   // Your code here
+  if (typeof arr[0] !== "string" || typeof arr[1] !== "number") {
+    return undefined;
+  }
+  if (arr[1] <= 0) {
+    return "";
+  }
+  return arr[0].repeat(arr[1]);
 }
 
 // Part 2 - Test

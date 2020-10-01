@@ -16,6 +16,11 @@
 
 function longestWord(str) {
   // Place solution here
+  let longest = "";
+  str
+    .split(" ")
+    .forEach((word) => (longest = word.length > longest ? word : longest));
+  return longest;
 }
 
 // Part 2 - Test

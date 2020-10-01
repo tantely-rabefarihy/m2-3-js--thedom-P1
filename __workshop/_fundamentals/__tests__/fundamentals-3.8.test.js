@@ -4,6 +4,9 @@ const reverseIt = require("../fundamentals-3.8");
 // Write 3 more expect functions to test the function you just wrote.
 test("Exercise 8", () => {
   expect(reverseIt("abcdefgh")).toBe("hgfedcba");
+  expect(reverseIt("hello")).toBe("olleh");
+  expect(reverseIt("dev")).toBe("ved");
+  expect(reverseIt("soap")).toBe("paos");
   // add more tests here...
 });
 

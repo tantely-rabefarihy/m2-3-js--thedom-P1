@@ -9,6 +9,11 @@
 
 function sum(arr) {
   // Your code here
+  if (arr.every((item) => typeof item === "number")) {
+    return arr.reduce((a, b) => a + b);
+  } else {
+    return undefined;
+  }
 }
 
 // Part 2 - Test
