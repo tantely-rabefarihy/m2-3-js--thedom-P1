@@ -7,7 +7,6 @@ test("Exercise 8", () => {
   expect(reverseIt("hello")).toBe("olleh");
   expect(reverseIt("dev")).toBe("ved");
   expect(reverseIt("soap")).toBe("paos");
-  // add more tests here...
 });
 
 // More info on jest expect: https://jestjs.io/docs/en/expect

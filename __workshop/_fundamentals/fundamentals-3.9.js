@@ -17,9 +17,13 @@
 function longestWord(str) {
   // Place solution here
   let longest = "";
-  str
-    .split(" ")
-    .forEach((word) => (longest = word.length > longest ? word : longest));
+  const splitted = str.split(" ");
+
+  splitted.forEach((string) => {
+    if (string.length >= longest.length) {
+      longest = string;
+    }
+  });
   return longest;
 }
 

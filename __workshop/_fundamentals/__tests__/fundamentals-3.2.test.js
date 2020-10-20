@@ -8,7 +8,6 @@ test("Exercise 2", () => {
   expect(lastCharacter("banana")).toBe("a");
   expect(lastCharacter("")).toBe(undefined);
   expect(lastCharacter(21)).toBe(undefined);
-  // add more tests here...
 });
 
 // Run your test by typing yarn test fundamentals-3.2 in the terminal.

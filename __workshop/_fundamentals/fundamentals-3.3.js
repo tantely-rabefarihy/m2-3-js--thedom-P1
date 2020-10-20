@@ -12,12 +12,12 @@
 
 function sum(arr) {
   // Your code here
-  if (arr.length > 2 || typeof arr !== number) {
+  let isNumber = arr.every((item) => typeof item === "number");
+  if (isNumber === false) {
     return undefined;
-  } if (arr.length < 2 && typeof arr !== number ) {
-    return undefined;
-  };
-  return arr.reduce((a,b) => a+b );
+  } else {
+    return arr.reduce((a, b) => a + b);
+  }
 }
 
 // Part 2 - Test

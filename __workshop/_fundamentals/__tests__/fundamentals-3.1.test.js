@@ -8,7 +8,6 @@ test("Exercise 1", function () {
   expect(firstLetter("basket")).toBe("b");
   expect(firstLetter("developer")).toBe("d");
   expect(firstLetter(3)).toBe(undefined);
-  // add more tests here...
 });
 
 // Run your test by typing yarn test fundamentals-3.1 in the terminal.
